@@ -11,7 +11,7 @@ env:
   ECS_SERVICE: url-shortener-service
   ECS_CLUSTER: shortener-cluster
   ECS_TASK_DEFINITION: shortener-task.json
-  CONTAINER_NAME: shortener
+  CONTAINER_NAME: url-shortener
 
 jobs:
   deploy:
