@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: url-shortener
   ECS_SERVICE: url-shortener-service
   ECS_CLUSTER: shortener-cluster
-  ECS_TASK_DEFINITION: shortener-task:1
+  ECS_TASK_DEFINITION: ./shortener-task.json
   CONTAINER_NAME: shortener
 
 jobs:
